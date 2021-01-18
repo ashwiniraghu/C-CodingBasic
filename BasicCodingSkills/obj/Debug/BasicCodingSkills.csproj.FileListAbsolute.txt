@@ -1,0 +1,7 @@
+D:\ashwini\LearningC#andWPF\BasicCodingSkills\BasicCodingSkills\bin\Debug\BasicCodingSkills.exe.config
+D:\ashwini\LearningC#andWPF\BasicCodingSkills\BasicCodingSkills\bin\Debug\BasicCodingSkills.exe
+D:\ashwini\LearningC#andWPF\BasicCodingSkills\BasicCodingSkills\bin\Debug\BasicCodingSkills.pdb
+D:\ashwini\LearningC#andWPF\BasicCodingSkills\BasicCodingSkills\obj\Debug\BasicCodingSkills.csproj.CoreCompileInputs.cache
+D:\ashwini\LearningC#andWPF\BasicCodingSkills\BasicCodingSkills\obj\Debug\BasicCodingSkills.exe
+D:\ashwini\LearningC#andWPF\BasicCodingSkills\BasicCodingSkills\obj\Debug\BasicCodingSkills.pdb
+D:\ashwini\LearningC#andWPF\BasicCodingSkills\BasicCodingSkills\obj\Debug\BasicCodingSkills.csprojAssemblyReference.cache
