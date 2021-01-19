@@ -17,13 +17,34 @@ namespace BasicCodingSkills
             //Palindrome();
             //string m = RecursiveString("Ashw");
             //Console.WriteLine("Reversed string using recursion "+m);
-            DAArrays array = new DAArrays();
-            array.ArrayRotation();
+            //Date--18/01/2021-Updated Left and Right rotations
+           // DAArrays array = new DAArrays();
+            //array.ArrayRotation();
             //Date--15/01/2021
             //string phoneNumber = CreatePhoneNumber(new int[] { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 });
             //Date--18/01/2021
             //SumOfNaturalNumber(20);
+
+            //Date--19/01/2021
+             GetVowelCount("abracadaerbra");
             Console.ReadLine();
+        }
+
+        public static void  GetVowelCount(string str)
+        {
+            int vowelCount = 0;
+            int vowelCountR = 0;
+            // Your code here
+            string strNew = str.ToLower();
+            char[] vowels = { 'a', 'e', 'i', 'o', 'u' };
+
+            vowelCount =strNew.Count(x => vowels.Contains(x));
+            Console.WriteLine("Total vowels in string is {0}", vowelCount);
+
+            vowelCountR = Regex.Matches(str, @"[AEIOUaeiou]").Count;
+            Console.WriteLine("Total vowels in string using regular expression is {0}", vowelCountR);
+
+
         }
         public static void SumOfNaturalNumber(int nNumbers)
         {
@@ -61,7 +82,9 @@ namespace BasicCodingSkills
                                                 || x % 5 == 0 ? x : 0);
             Console.WriteLine("The sum of natural numbers {0} is {1}", nNumbers, sumNum1);
         }
-            public static string CreatePhoneNumber(int[] numbers)
+       
+        
+        public static string CreatePhoneNumber(int[] numbers)
         {
     
             int[] temp = numbers;
